@@ -151,6 +151,12 @@ input {
   margin: 15px auto 0px auto;
 }
 
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
 .flex-form {
   display: flex;
   justify-content: center;
